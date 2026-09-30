@@ -7,8 +7,8 @@
 #include <string>
 #include <utility>
 
-// Name:
-// FSUID:
+// Name: Chase Sweers
+// FSUID: cas23t
 
 // Determine whether all brackets in expression are correctly
 // matched and nested.
