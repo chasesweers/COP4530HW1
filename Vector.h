@@ -4,8 +4,8 @@
 #include <algorithm>
 #include <utility>
 
-// Name:
-// FSUID:
+// Name: Chase Sweers
+// FSUID: cas23t
 
 template <typename Object>
 class Vector
