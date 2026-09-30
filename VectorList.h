@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <list>
+#include <algorithm>
 
 // Name: Chase Sweers
 // FSUID: cas23t
@@ -20,7 +21,17 @@
 // Do NOT use set, unordered_set, map, or unordered_map.
 std::list<int> removeDuplicates(const std::vector<int> &numbers)
 {
-    // TODO
+    std::list<int> results;
+    std::size_t size = numbers.size();
+    for(std::size_t i = 0; i < size; i++)
+    {
+        auto it = std::find(results.begin(),results.end(),numbers[i]);
+        if(it == results.end())
+        {
+            results.push_back(numbers[i]);
+        }
+    } 
+    return results; 
 }
 
 #endif
