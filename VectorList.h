@@ -4,8 +4,8 @@
 #include <vector>
 #include <list>
 
-// Name:
-// FSUID:
+// Name: Chase Sweers
+// FSUID: cas23t
 
 // Return a list containing the elements of numbers in their
 // original order, but with duplicate occurrences removed.
